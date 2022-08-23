@@ -1,8 +1,8 @@
 .header{
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: red;
-    color: white;
+    background-color: lightblue;
+    color: black;
 }
 
 .header h1 {
@@ -13,6 +13,37 @@
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+a {
+ color: white;
+}
+
+.footer {
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.footer h1 {
+    display: inline;
+    font-size: 48px;
+    color: black;
+}
+
+.footer div {
+    float: right;
+    color: black;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.image {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url(https://wallpaperaccess.com/full/2126224.jpg);
+    background-size: cover;
+    background-position: center;
 }
