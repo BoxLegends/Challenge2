@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
+ 
+<!--the head of the document contains the meta data title and character set for the html document-->
 <head>
     <meta charset="UTF -8" />
     <link rel="stylesheet" href="./assets/style.css">
@@ -9,7 +10,7 @@
 
 
 <Body>
-
+    <!--The header has all of the navigation links and the title for the website-->
     <header class="header">
     <h1>My Portfolio</h1>
      <div>
@@ -22,26 +23,57 @@
     </div>
     </header>
 
-    <main>
+    <!--This is the beggining of the main section this section contains all the main sections and content of the document such as the links to my work and paragraphs about me-->
+    <main class = 'main'>
         <div class="image"></div>
-            <article>
+            <article class = 'aboutMe'>
                 <h1>About Me</h1>
-                <p></p>
+                <p class = 'paragraph1'>My name is nick Burns i am a 20 year old student attending a rutgers bootcamp in order to learn and be proffecient in writing and reading code. I attended John F kennedy memorial high school
+                   and graduated the year of 2020 since then i have been to New Jersey institute of technology as trasnferred out to montcalir state university and spent a year there. Feeling lost for a long time 
+                   i decided to take this course in hopes to launch a career in the field that i love! the following links are portals to my portfolios as i build them throught this class. 
+                </p>
+                <p class = 'paragraph1'>
+                    in this class i will accumulate Css HTML and Java script knowledge in order to be able to develope various things a company may require. Through this challenge i have combined the skills
+                   i have learned through my lessons on HTML including semantic elements responsive design and formatting and structure of HTML code for ease of use and redability as well as various techins in Css
+                   such as advanced CSS, thank you for reading!
+                </p>
             </article>
 
+    <!--this section contains all the code for the various different cards within the section it has their images titles and their alternates in case the images cannot be displayed-->
             <section>
                 <h1>My Work</h1>
-
+                <div class = 'myWork'>
+                    <section class = 'card'>
+                        <header>My GitHub Repos!</header>
+                        <img src = "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt ="Links to My Git Hub Repositories"/>
+                        <p>My GitHub Repositories!</p>
+                    </section>
+                    <section class="card">
+                        <header>My HTML work!</header>
+                        <img src = "https://cdn3d.iconscout.com/3d/free/thumb/html-5728485-4781249.png" alt = "Links to all My HTML Based websites and demos"/>
+                        <p>Links to all My HTML Based websites and demos</p>
+                    </section>
+                    <section class="card">
+                        <header>My CSS Work!</header>
+                        <img src = "https://cdn-icons-png.flaticon.com/512/919/919826.png?w=360" alt = "links to my CSS styled websites and demos"/>
+                        <p>links to my CSS styled websites and demos</p>
+                    </section>
+                    <section class = 'card'>
+                        <header>MY JavaScript Work!</header>
+                        <img src = "https://i2.wp.com/info.widespace.com/wp-content/uploads/2016/03/javascript-shield-logo.png?fit=300%2C300&ssl=1" alt = "Links to my JavaScript based work and demos"/>
+                        <p>Links to my JavaScript based work and demos</p>
+                    </section>
+                </div>
             </section>
 
     </main>
 
 </Body>
 
-
+<!--the footer class holds the information on a sort of second nav bar with the different information links inside of it-->
 <footer class="footer">
     <h1>Contact Me!</h1>
-    <div>
+        <div>
           <a href="#Phone">Phone</a>
           <a href="#Email">Email</a>
           <a href="#GitHub">GitHub</a>

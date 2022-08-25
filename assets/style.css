@@ -1,13 +1,17 @@
+/* the formatting for all headers in the docu */
 .header{
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: lightblue;
-    color: black;
+    background-color: navy;
+    color: navy;
 }
-
+/* specific formatting for h1 inside of the header section */
 .header h1 {
     display: inline;
+    justify-content: right;
     font-size: 48px;
+    padding: 0px 0px 0px 10px;
+    background-color: white;
 }
 .header div {
     padding-top: 15px;
@@ -21,24 +25,79 @@ a {
  color: white;
 }
 
-.footer {
-    padding: 20px;
-    background-color: lightblue;
+/* the next two CSS classes set the background style for the page so all of the sections and main background are the same color */
+.main {
+    background: lightgrey;
 }
 
+.aboutMe {
+    background: lightgray;
+}
+
+ h1{
+    padding: 10px;
+    color: navy;
+}
+
+/* this class mainly exists for the purpose of giving my site responsive design this allows the main cards with all of the information on them to format themselves as the screen gets smaller and smaller*/
+.myWork{
+    background: lightgray;
+    flex: 4;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* the next 4 classes for CSS contain formatting tools and settings for the Card sections where i keep the links to my various works */
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 400px;
+}
+
+.card header {
+    padding: 20px;
+    text-align: center;
+    background: navy;
+    color: white;
+  }
+  
+  .card p {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    background-color: white;
+    color: navy;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+
+.footer {
+    padding: 20px;
+    background-color: navy;
+}
+
+/* the next few classes are formatting options for the footer of my website  */
 .footer h1 {
     display: inline;
     font-size: 48px;
-    color: black;
+    color: navy;
+    padding: 0px 0px 0px 0px;
+    background-color: white;
 }
 
 .footer div {
     float: right;
-    color: black;
+    color: navy;
     margin-top: 10px;
     font-size: 25px;
 }
 
+/* This is the styling for the image of the keys on the upper part of the site  */
 .image {
     height: 200px;
     width: 100%;
@@ -46,4 +105,8 @@ a {
     background-image: url(https://wallpaperaccess.com/full/2126224.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.paragraph1 {
+    font-size: 25px;
 }
