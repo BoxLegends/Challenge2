@@ -22,7 +22,10 @@
 }
 
 a {
- color: white;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    background-color: white;
+    color: navy;
 }
 
 /* the next two CSS classes set the background style for the page so all of the sections and main background are the same color */
